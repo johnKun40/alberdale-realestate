@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import banner from '../public/img/banner1.jpg'
 import React from 'react';
+import Search from './Search';
 
 function Banner() {
   return (
@@ -10,11 +11,13 @@ function Banner() {
             <Image src={banner} alt='banner' layout='fill' objectFit='cover' />
         </div>
 
-        <p className='uppercase text-sm tracking-widest text-white my-10'>Looking to invest or a place to stay ?</p>
+        <p className='uppercase text-sm tracking-widest text-white my-10'>Looking to invest, a home or a place to stay?</p>
 
         <h1 className='text-2xl font-bold md:text-4xl lg:text-7xl font-serif'>
-            <span className='text-white'>Explore, </span><span className='text-[#9C7821]'>Find, </span><span className='text-white'>Acquire</span>
+            <span className='text-white'>Explore. </span><span className='text-[#9C7821]'>Find. </span><span className='text-white'>Acquire</span>
         </h1>
+
+        <Search />
         
 
 
