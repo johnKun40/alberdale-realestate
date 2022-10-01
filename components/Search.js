@@ -4,7 +4,7 @@ import {AiOutlineSearch} from 'react-icons/ai'
 function Search() {
   return (
     <div>
-    <form className='px-[30px] py-6 max-w-[1100px] mx-auto flex flex-col lg:flex-row justify-between gap-4 lg:gap-x-3 relative lg:-top-[-80px] lg:shadow-1 bg-white lg:bg-transparent lg:backdrop-blur rounded-lg '>
+    <form className='px-[30px] py-6 max-w-[1100px]  mx-auto flex flex-col lg:flex-row justify-between gap-4 lg:gap-x-3 relative lg:-top-[-60px] lg:shadow-1 bg-white lg:bg-transparent lg:backdrop-blur rounded-lg '>
         
         <div className='flex flex-col'>
             <label className='text-lg text-white'>Where in Lagos</label>

@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import banner from '../public/img/banner1.jpg'
+import banner from '../public/img/banner1.jpg';
+import {AiOutlineDown} from 'react-icons/ai'
 import React from 'react';
 import Search from './Search';
 
@@ -15,7 +16,12 @@ function Banner() {
 
         <h1 className='text-2xl font-bold md:text-4xl lg:text-7xl font-serif'>
             <span className='text-white'>Explore. </span><span className='text-[#9C7821]'>Find. </span><span className='text-white'>Acquire</span>
+            
         </h1>
+
+        <div className='flex justify-center my-3 lg:mt-10'>
+        <AiOutlineDown className='animate-bounce text-[#9C7821] text-3xl' />
+        </div>
 
         <Search />
         
